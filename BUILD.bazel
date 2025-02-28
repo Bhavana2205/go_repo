@@ -1,0 +1,8 @@
+
+
+
+load("//:git_file.bzl", "new_rule")
+new_rule(
+    name = "get_commit_sha",
+    text = "Fetch the Git commit SHA",
+)
